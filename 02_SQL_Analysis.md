@@ -15,7 +15,8 @@ SELECT ROUND(SUM(Total_Sales), 0) AS Total_Revenue
 FROM order_items_copy;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q1 — Total Revenue)*
+📸 **Screenshot:** *<img width="763" height="602" alt="Q1_Total_Revenue" src="https://github.com/user-attachments/assets/46fac0c3-6648-4ee6-80c7-adbb48b0499f" />
+*
 
 **Result:** Total_Revenue = **$21,388,472**
 
