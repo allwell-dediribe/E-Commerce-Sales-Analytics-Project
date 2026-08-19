@@ -15,7 +15,7 @@ SELECT ROUND(SUM(Total_Sales), 0) AS Total_Revenue
 FROM order_items_copy;
 ```
 
-![Q1_Total_Revenue.png](Q1_Total_Revenue.png)
+![Q1_Total_Revenue_Result](Analysis%20Screenshots/Q1_Total_Revenue.png)
 
 **Result:** Total_Revenue = **$21,388,472**
 
@@ -32,7 +32,7 @@ SELECT
 FROM order_items_copy;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q2 — Total Orders & Average Order Value)*
+![Q2_Total_Orders_&_Average_Order_Value_Result](Analysis%20Screenshots/Q2_Total_Orders_&_Average_Order_Value.png)
 
 **Result:** Total_Orders = **5,000** | Average_Order_Value = **$4,277.69**
 
@@ -55,7 +55,7 @@ GROUP BY FORMAT(o.Order_Date, 'yyyy-MM')
 ORDER BY Sales_Month;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q3 — Monthly Revenue Trend)*
+![Q3_Monthly_Revenue_Trend_Result](Analysis%20Screenshots/Q3_Monthly_Revenue_Trend.png)
 
 **Result:**
 
@@ -93,7 +93,7 @@ GROUP BY p.Product_Category
 ORDER BY Product_Category_Sales DESC;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q4 — Revenue by Category)*
+![Q4_Revenue_by_Category_Result](Analysis%20Screenshots/Q4_Revenue_by_Category.png)
 
 **Result:**
 
@@ -125,7 +125,7 @@ GROUP BY c.City
 ORDER BY Revenue DESC;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q5 — Revenue by City)*
+![Q5_Revenue_by_City_Result](Analysis%20Screenshots/Q5_Revenue_by_City.png)
 
 **Result:**
 
@@ -157,7 +157,7 @@ FROM orders_copy
 GROUP BY Delivery_Status;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q6 — Delivery Status Distribution)*
+![Q6_Delivery_Status_Distribution_Result](Analysis%20Screenshots/Q6_Delivery_Status_Distribution.png)
 
 **Result:**
 
@@ -194,7 +194,7 @@ WHERE Revenue > (SELECT AVG(Revenue) FROM Product_Revenue)
 ORDER BY Revenue DESC;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q7 — Above-Average Products (CTE + Subquery))*
+![Q7_Above_Average_Products_Result](Analysis%20Screenshots/Q7_Above_Average_Products.png)
 
 **Result:** 49 out of 100 total products (49%) perform above average revenue. Top performers include:
 
@@ -230,7 +230,7 @@ GROUP BY
     p.Product_Name;
 ```
 
-📸 **Screenshot:** *(Insert screenshot of the query running in SQL Server, showing the result set — Q8 — Product Ranking by Category (Window Function))*
+![Q8_Product_Ranking_by_Category_Result](Analysis%20Screenshots/Q8_Product_Ranking_by_Category.png)
 
 **Result — top and bottom performer per category (25 products each, 100 total):**
 
@@ -252,4 +252,4 @@ GROUP BY
 - **Lagos is the dominant market**, generating nearly 48% more revenue than the next city
 - **Cancellation rate (24%) is a key operational risk** — nearly 1 in 4 orders never completes
 - **49% of products outperform the category average**, indicating a genuinely diverse, non-hit-dependent catalog
--
+- **Electronics has the widest gap between best and worst performer**, meaning electronics only has a few standout products
