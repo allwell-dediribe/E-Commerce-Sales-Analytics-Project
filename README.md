@@ -7,7 +7,7 @@ This project analyzes an e-commerce sales dataset to uncover insights about reve
 
 It follows an end-to-end data analytics workflow:
 
-**Data Cleaning → SQL Analysis →Data Modelling → Dashboard Development**
+**Data Cleaning → SQL Analysis → Power Query (ETL) → Data Modeling → Dashboard Development**
 
 The goal was to transform raw transactional data into insights that support real business decisions — not just to run queries, but to interpret what the numbers mean.
 
