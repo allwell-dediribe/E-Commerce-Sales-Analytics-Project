@@ -151,6 +151,7 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 - **Electronics generated the highest revenue** among product categories, though performance within it is concentrated in a small number of top products (Laptops, Tablets).
 - **Lagos is the dominant market**, generating nearly 48% more revenue than the next-highest city.
 - **Customers aged 41–60 contributed the highest revenue.**(From pivot tables and dashboard)
+  ![Age_Group_Revenue_Result](Analysis%20Screenshots/Age_Group_Revenue.png)
 - **49% of products perform above the category average**, indicating a diverse catalog rather than reliance on a few bestsellers.
 - **24% of orders are cancelled** — a meaningful operational gap worth addressing, since it directly limits realized revenue.
 
