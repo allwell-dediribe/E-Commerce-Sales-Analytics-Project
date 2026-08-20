@@ -139,9 +139,10 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 **Interactive slicers** filter the dashboard by Product Category, Delivery Status, and City.
 
-📸 **Screenshot placement:** a full dashboard screenshot is essential here — this is usually the first thing a recruiter looks at, often before reading any text. Consider 1–2 additional screenshots showing a slicer in use (e.g., filtered to one city or category) to demonstrate interactivity.
+![Slicer_Filtering_01.png](Slicer_Filtering_01.png)
+![Slicer_Filtering_02.png](Slicer_Filtering_02.png)
 
-📄 **File reference:** `Excel_Dashboard/Ecommerce_Dashboard.xlsx` (link it directly if hosted in the repo)
+📄 **File reference:** [Ecommerce_Sales_Analysis_Dashboard.xlsx](Ecommerce_Sales_Analysis_Dashboard.xlsx)
 
 ---
 
@@ -149,12 +150,25 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 - **Electronics generated the highest revenue** among product categories, though performance within it is concentrated in a small number of top products (Laptops, Tablets).
 - **Lagos is the dominant market**, generating nearly 48% more revenue than the next-highest city.
-- **Customers aged 41–60 contributed the highest revenue.**
+- **Customers aged 41–60 contributed the highest revenue.**(From pivot tables and dashboard)
 - **49% of products perform above the category average**, indicating a diverse catalog rather than reliance on a few bestsellers.
 - **24% of orders are cancelled** — a meaningful operational gap worth addressing, since it directly limits realized revenue.
 
 ---
 
+## Recommendations
+
+**Based on the findings above, the analysis points to four concrete actions:**
+
+1.**Invest further in Electronics.** It leads category revenue and contains several of the highest-grossing individual products (Laptop and Tablet models) — the strongest area to double down on for inventory and promotion.
+
+2.**Prioritize Lagos and the 41–60 age group.** Both stand out as the strongest revenue segments and are natural priorities for marketing spend and retention efforts.
+
+3.**Focus inventory on consistent performers.** With only 49% of products driving above-average revenue, re-evaluate the lowest-ranked product in each category (e.g., Smartphone Model 2, Sneakers Model 5) as candidates for discounting or discontinuation.
+
+4.**Investigate order cancellations.** At 24%, this is the single highest-leverage fix available — reducing it converts already-placed orders into realized revenue without needing to acquire new customers.
+
+---
 ## Project Files
 
 ```
@@ -171,7 +185,7 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 ## Dashboard Preview
 
-📸 *(Insert final dashboard screenshot here)*
+![Excel_Dashboard_Result](Excel_Dashboard.png)
 
 ---
 
@@ -179,11 +193,11 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 This project demonstrates an end-to-end data analytics workflow — from data cleaning and SQL-based business analysis to data modeling and dashboard development in Excel.
 
-It strengthened skills in:
+This project strengthened my skills in:
 
 - SQL querying (joins, CTEs, subqueries, window functions)
 - Data cleaning and validation
 - Relational data modeling
 - Business analysis and insight-writing
 - Dashboard development
--
+- Turning analysis into clear, actionable recommendations
