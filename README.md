@@ -173,13 +173,28 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 ## Project Files
 
 ```
-├── Dataset/
+├── Analysis Screenshots/
+│   ├── Q1_Total_Revenue.png
+│   ├── Q2_Total_Orders_&_Average_Order_Value.png
+│   ├── Q3_Monthly_Revenue_Trend.png
+│   ├── Q4_Revenue_by_Category.png
+│   ├── Q5_Revenue_by_City.png
+│   ├── Q6_Delivery_Status_Distribution.png
+│   ├── Q7_Above_Average_Products.png
+│   ├── Q8_Product_Ranking_by_Category.png
+│   └── Age_Group_Revenue.png
+├── Dashboard/
+│   └── Ecommerce_Sales_Analysis_Dashboard.xlsx
+├── Images/
+│   ├── Data_Model.png
+│   ├── Excel_Dashboard.png
+│   ├── Slicer_Filtering_01.png
+│   └── Slicer_Filtering_02.png
 ├── SQL/
-│   ├── Data_Cleaning.sql
-│   └── Sales_Analysis.sql
-├── Excel_Dashboard/
-├── Data_Model/
-└── Dashboard_Image/
+│   ├── 02_SQL_Analysis.md
+│   ├── Data_Analysis.sql
+│   └── Data_Cleaning_SQL.sql
+└── README.md
 ```
 
 ---
