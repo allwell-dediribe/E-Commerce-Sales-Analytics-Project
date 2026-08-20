@@ -109,7 +109,7 @@ A relational data model was built in Excel using Power Pivot, connecting:
 
 This model powers the Pivot Tables and interactive filters behind the dashboard below.
 
-📸 **Screenshot placement:** a diagram or screenshot of the Power Pivot relationship view goes here — it's the clearest way to show reviewers how the tables connect without them opening the file.
+![Data_Model_Result](Data_Model.png)
 
 ---
 
