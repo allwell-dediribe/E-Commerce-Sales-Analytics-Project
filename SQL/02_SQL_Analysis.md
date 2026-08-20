@@ -15,7 +15,7 @@ SELECT ROUND(SUM(Total_Sales), 0) AS Total_Revenue
 FROM order_items_copy;
 ```
 
-![Q1_Total_Revenue_Result](Analysis%20Screenshots/Q1_Total_Revenue.png)
+![Q1_Total_Revenue_Result](../Analysis%20Screenshots/Q1_Total_Revenue.png)
 
 **Result:** Total_Revenue = **$21,388,472**
 
@@ -32,7 +32,7 @@ SELECT
 FROM order_items_copy;
 ```
 
-![Q2_Total_Orders_&_Average_Order_Value_Result](Analysis%20Screenshots/Q2_Total_Orders_&_Average_Order_Value.png)
+![Q2_Total_Orders_&_Average_Order_Value_Result](../Analysis%20Screenshots/Q2_Total_Orders_&_Average_Order_Value.png)
 
 **Result:** Total_Orders = **5,000** | Average_Order_Value = **$4,277.69**
 
@@ -55,7 +55,7 @@ GROUP BY FORMAT(o.Order_Date, 'yyyy-MM')
 ORDER BY Sales_Month;
 ```
 
-![Q3_Monthly_Revenue_Trend_Result](Analysis%20Screenshots/Q3_Monthly_Revenue_Trend.png)
+![Q3_Monthly_Revenue_Trend_Result](../Analysis%20Screenshots/Q3_Monthly_Revenue_Trend.png)
 
 **Result:**
 
@@ -93,7 +93,7 @@ GROUP BY p.Product_Category
 ORDER BY Product_Category_Sales DESC;
 ```
 
-![Q4_Revenue_by_Category_Result](Analysis%20Screenshots/Q4_Revenue_by_Category.png)
+![Q4_Revenue_by_Category_Result](../Analysis%20Screenshots/Q4_Revenue_by_Category.png)
 
 **Result:**
 
@@ -125,7 +125,7 @@ GROUP BY c.City
 ORDER BY Revenue DESC;
 ```
 
-![Q5_Revenue_by_City_Result](Analysis%20Screenshots/Q5_Revenue_by_City.png)
+![Q5_Revenue_by_City_Result](../Analysis%20Screenshots/Q5_Revenue_by_City.png)
 
 **Result:**
 
@@ -157,7 +157,7 @@ FROM orders_copy
 GROUP BY Delivery_Status;
 ```
 
-![Q6_Delivery_Status_Distribution_Result](Analysis%20Screenshots/Q6_Delivery_Status_Distribution.png)
+![Q6_Delivery_Status_Distribution_Result](../Analysis%20Screenshots/Q6_Delivery_Status_Distribution.png)
 
 **Result:**
 
@@ -194,7 +194,7 @@ WHERE Revenue > (SELECT AVG(Revenue) FROM Product_Revenue)
 ORDER BY Revenue DESC;
 ```
 
-![Q7_Above_Average_Products_Result](Analysis%20Screenshots/Q7_Above_Average_Products.png)
+![Q7_Above_Average_Products_Result](../Analysis%20Screenshots/Q7_Above_Average_Products.png)
 
 **Result:** 49 out of 100 total products (49%) perform above average revenue. Top performers include:
 
@@ -230,7 +230,7 @@ GROUP BY
     p.Product_Name;
 ```
 
-![Q8_Product_Ranking_by_Category_Result](Analysis%20Screenshots/Q8_Product_Ranking_by_Category.png)
+![Q8_Product_Ranking_by_Category_Result](../Analysis%20Screenshots/Q8_Product_Ranking_by_Category.png)
 
 **Result — top and bottom performer per category (25 products each, 100 total):**
 
