@@ -109,7 +109,7 @@ A relational data model was built in Excel using Power Pivot, connecting:
 
 This model powers the Pivot Tables and interactive filters behind the dashboard below.
 
-![Data_Model_Result](Data_Model.png)
+![Data_Model_Result](Images/Data_Model.png)
 
 ---
 
@@ -139,10 +139,10 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 **Interactive slicers** filter the dashboard by Product Category, Delivery Status, and City.
 
-![Slicer_Filtering_01.png](Slicer_Filtering_01.png)
-![Slicer_Filtering_02.png](Slicer_Filtering_02.png)
+![Slicer_Filtering_01.png](Images/Slicer_Filtering_01.png)
+![Slicer_Filtering_02.png](Images/Slicer_Filtering_02.png)
 
-📄 **File reference:** [Ecommerce_Sales_Analysis_Dashboard.xlsx](Ecommerce_Sales_Analysis_Dashboard.xlsx)
+📄 **File reference:** [Ecommerce_Sales_Analysis_Dashboard.xlsx](Dashboard/Ecommerce_Sales_Analysis_Dashboard.xlsx)
 
 ---
 
@@ -185,7 +185,7 @@ The Excel dashboard brings the SQL and data model together into an interactive v
 
 ## Dashboard Preview
 
-![Excel_Dashboard_Result](Excel_Dashboard.png)
+![Excel_Dashboard_Result](Images/Excel_Dashboard.png)
 
 ---
 
