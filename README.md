@@ -92,7 +92,7 @@ SQL was used to answer 8 core business questions, progressing from foundational 
 
 Each query is documented with its business question, purpose, SQL code, result, and a written insight interpreting what the number means for the business.
 
-📄 **File reference:** [Data_Analysis_SQL.sql](SQL/Data_Analysis_SQL.sql) 
+📄 **File reference:** [Data_Analysis.sql](SQL/Data_Analysis.sql) 
 (see the full breakdown with results and insights here: [02_SQL_Analysis.md](SQL/02_SQL_Analysis.md))
 
 ---
